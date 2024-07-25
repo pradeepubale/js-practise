@@ -48,3 +48,19 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World");
 }
+
+
+// typeof(val) => value
+// number => number
+// string => string
+// boolean => boolean
+
+console.log(typeof id); // symbol => Symbol
+console.log(typeof bigNumber); // bigInt
+console.log(typeof outsideTemp); // null => object
+console.log(typeof user); // undefined => undefined
+console.log(typeof myObj); // object => object
+console.log(typeof myFunction); // function => (object)function
+console.log(typeof computer); // array = > object
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
