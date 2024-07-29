@@ -64,13 +64,49 @@ const users = [
     }
 ]
 
-console.log(users[1].email);
+// console.log(users[1].email);
 
-console.log(appUser);
+// console.log(appUser);
 
 // create array of object keys V IMP
-console.log(Object.keys(appUser));
-console.log(Object.values(appUser));
-console.log(Object.entries(appUser));// create array of key value pairs. used rarely
+// console.log(Object.keys(appUser));
+// console.log(Object.values(appUser));
+// console.log(Object.entries(appUser));// create array of key value pairs. used rarely
 
-console.log(appUser.hasOwnProperty('isLoggedIn'));
+// console.log(appUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "JS From zero to Hero",
+    price: "999",
+    courseInstructor: "Pradeep"
+}
+
+// +++++++++++++++++
+
+// Object de-structure
+
+// console.log(course.courseInstructor);
+
+// const {courseInstructor} = course;
+// console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+// JSON => JS Object Notation
+
+// {
+//     "name": "pradeep",
+//     "id" : 1235,
+//     "course": "JS"
+// }
+
+// free api : randomuser.me
+// json formatter: https://jsonformatter.org/
+
+
+// array of json 
+[
+    {},
+    {}
+]
